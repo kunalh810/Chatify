@@ -8,7 +8,7 @@ const app = express();
 const server =http.createServer(app);
 const io = new Server(server,{
     corse:{
-        origin:["http://localhost:3000"],
+        origin:["https://chatify-zbni.onrender.com"],
         methods:["GET","POST"]
     }
 })
